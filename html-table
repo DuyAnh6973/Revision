@@ -1,1 +1,29 @@
 
+<style>
+   table, tr, td{
+       border: 1px solid grey;
+       border-collapse: collapse;
+       padding: 5px;
+   }
+</style>
+<html>
+   <body>
+       <table>
+           <tr>
+               <td>Name</td>
+               <td>Address</td>
+               <td>Age</td>
+           </tr>
+           <tr>
+               <td>Thanh</td>
+               <td>Q7</td>
+               <td>30</td>
+           </tr>
+           <tr>
+               <td>Toan</td>
+               <td>Q1</td>
+               <td>20</td>
+           </tr>
+       </table>
+   </body>
+</html>
