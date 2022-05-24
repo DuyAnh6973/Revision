@@ -1,1 +1,17 @@
 https://copy.sh/v86/?profile=linux26
+ 
+ 
+ MANPATH="$MANPATH:/usr/X11R6/man"
+for month in {1..12..1} do
+mkdir "$month" && touch "$month/$month's task"
+done
+
+
+
+git init 
+git remote add origin git@github.com:username/reponame
+git push origin
+git add hello.txt && git commit -m "Add hello.txt"
+cat "Hello World" >> hello.txt && git add hello.txt && git commit -m "add text"
+git checkout -b branch1 && touch mybranch.txt && git add mybranch.txt && git commit --allow-empty-message
+git checkout -b branch2 && touch mybranch.txt && git add mybranch.txt && git commit --allow-empty-message
